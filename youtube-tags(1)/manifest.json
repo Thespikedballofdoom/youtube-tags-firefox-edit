@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "THESPIKEDBALLOFDOOMS EDIT OF THE TAGS ADDON WHICH PROBABLY SELLS MY DATEA",
-  "version": "6.2.1",
+  "name": "THESPIKEDBALLOFDOOMS EDIT OF THE TAGS ADDON WHICH WORKS BETTER!!!!",
+  "version": "6.2.2",
   "default_locale": "en",
   "description": "__MSG_appDesc__",
   "icons": {
@@ -18,7 +18,7 @@
     ],
     "persistent": false
   },
-  "author": "alik0211",
+  "author": "alik0211 + Thespikedballofdoom",
   "content_scripts": [
     {
       "matches": [
