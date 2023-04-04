@@ -1,0 +1,12 @@
+/* My styles */
+.ytt-row-container {
+  margin-bottom:4px;
+  display: flex;
+  flex-direction: row;
+  white-space: pre-wrap;
+  align-items: flex-start;
+  line-height: 1.2;
+  font-size: smaller
+}
+h4.\#container{display:none}
+div#content.style-scope.ytd-metadata-row-renderer{width:500px}
