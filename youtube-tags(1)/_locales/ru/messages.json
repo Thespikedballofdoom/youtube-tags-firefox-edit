@@ -1,0 +1,17 @@
+{
+  "appName": {
+    "message": "YouTube Tags"
+  },
+  "appDesc": {
+    "message": "Расширение для просмотра тегов у любого видео на YouTube"
+  },
+  "rowTagsName": {
+    "message": "Теги"
+  },
+  "rowTagsContentEmpty": {
+    "message": "У видео нет тегов"
+  },
+  "rowTagsContentError": {
+    "message": "Ошибка"
+  }
+}

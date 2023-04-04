@@ -1,0 +1,48 @@
+{
+  "manifest_version": 2,
+  "name": "THESPIKEDBALLOFDOOMS EDIT OF THE TAGS ADDON WHICH PROBABLY SELLS MY DATEA",
+  "version": "6.2.1",
+  "default_locale": "en",
+  "description": "__MSG_appDesc__",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "96": "images/icon-96.png",
+    "128": "images/icon-128.png",
+    "256": "images/icon-256.png",
+    "512": "images/icon-512.png"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": false
+  },
+  "author": "alik0211",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "js/content.js"
+      ],
+      "css": [
+        "css/content.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "css/*.css"
+  ],
+  "permissions": [
+    "alarms",
+    "storage",
+    "https://www.youtube.com/*"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{9d063afe-a167-4cf3-ad71-ed1204a2339f}"
+    }
+  }
+}
